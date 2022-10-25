@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 16px;
+
+}
+ul,li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.container{
+    width: 1376px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color:   #063255;
+}
+.footer-top{
+    padding:80px 0 85px 0  ;
+    display: flex;
+}
+.footer-left{
+    width: 351px;
+    height: 199px;
+}
+.footer-left-logo{
+    padding-bottom: 32px;
+}
+
+.footer-left-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+    padding-bottom: 32px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer{
+    position: relative;
+}
+.footer-company{
+    padding-left: 110px;
+    
+}
+.footer-company ul,li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 8px 0;
+
+}
+.footer-connect{
+    padding-left: 106px;
+    
+}
+.footer-subscribe{
+    padding-left:137px;
+    
+}
+.footer-subscribe-title{padding-bottom: 24px;}
+.footer-subscribe-input{
+    position:absolute;
+    color: #9C9C9C;
+    background-color: #fff;
+    padding: 18px 188px 17px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    border-radius: 31px;
+}
+.footer-subscribe-but{
+    padding-top: 86px;
+}
+.footer-subscribe-button{
+    color: #fff;
+    background-color: #f58a07;
+    padding: 17px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 31px;    
+}
+.shape-left{
+    background-color: #f58a07;
+    width: 53px;
+    height: 144px;
+    position: absolute;
+    top: 319px;
+    border-top-right-radius:20px;
+}
+.shape-right{
+    background-color: #f58a07;
+    width: 53px;
+    height: 287px;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 52px;
+}
+.footer-bottom-right{
+    margin-right: auto;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-bottom-left_nav{
+    font-weight: 500;
+    color: #fff;
+}
+.nav_items{
+    display: flex;
+}
+.nav_items>li{
+    gap: 32px;
+
+}
